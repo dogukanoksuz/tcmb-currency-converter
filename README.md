@@ -2,9 +2,11 @@
 ### How to use it?
 `<?php 
        require_once("tcmb.php");
-       echo TCMB_Converter(from, to);
+       echo TCMB_Converter(from, to, value);
  ?>`
  
- ##### TODO:
- - Convert to array (input values etc.)
- - Simplify the code.
+ #### Changelog v2.0
+ - Simplexml bug fixed
+ - Code refactored completely
+ - Working way faster
+ - Used cURL instead of simplexml_open_url
